@@ -766,7 +766,7 @@ $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 134102.png>)
+!![alt text](75.png)
 
 # using the case command
 cat >casecheck.sh 
@@ -788,8 +788,8 @@ $ chmod 755 casecheck.sh
 $ ./casecheck.sh 
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 134154.png>)
- 
+![alt text](76.png)
+
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -807,7 +807,7 @@ $ ./whiletest.sh
  
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 134726.png>)
+![alt text](78.png)
  
 cat untiltest.sh 
 ```bash
@@ -823,8 +823,8 @@ $ chmod 755 untiltest.sh
 $ ./untiltest.sh
 
 ## OUTPUT
-![alt text](<Screenshot 2025-04-19 135215.png>)
- 
+!
+ ![alt text](79.png)
  
 cat forin1.sh 
 ```bash
@@ -840,8 +840,7 @@ $ chmod 755 forin1.sh
 $ ./forin1.sh
 
 ## OUTPUT
-![alt text](<Screenshot 2025-04-19 135342.png>)
- 
+![alt text](80.png)
  
 cat forin2.sh 
 
@@ -872,8 +871,10 @@ $ chmod 755 forin2.sh
 $ ./forin2.sh 
 
 ## OUTPUT
-![alt text](<Screenshot 2025-04-19 135440.png>)
- 
+
+![alt text](81.png)
+
+
 cat forin3.sh 
 ```bash
 \#!/bin/bash
@@ -887,7 +888,9 @@ $ ./forin3.sh
 
 ## OUTPUT
  
-![alt text](<Screenshot 2025-04-19 135637.png>)
+
+![alt text](82.png)
+
 
 cat forin1.sh 
 ```bash
@@ -901,7 +904,9 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
-![alt text](<Screenshot 2025-04-19 135342-1.png>)
+
+
+![alt text](83.png)
 
 cat forinfile.sh 
 ```bash
@@ -924,7 +929,10 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
-![alt text](<Screenshot 2025-04-19 141729.png>)
+
+![alt text](84a.png)
+![alt text](84b.png)
+
 
 cat forctype.sh 
 ```bash
@@ -939,8 +947,7 @@ $ chmod 755 forctype.sh
 $ ./forctype.sh 
 
 ## OUTPUT
-
-![alt text](<Screenshot 2025-04-19 141853.png>)
+![alt text](85.png)
 
 cat forctype1.sh 
 ```bash
@@ -955,7 +962,7 @@ $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 142004.png>)
+![alt text](86.png)
 
 cat fornested1.sh 
 ```bash
@@ -974,8 +981,8 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
-
- ![alt text](<Screenshot 2025-04-19 142232.png>)
+![alt text](87.png)
+ 
 
 cat forbreak.sh 
 ```bash
@@ -996,8 +1003,7 @@ echo "The for loop is completed“
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
-
-![alt text](<Screenshot 2025-04-19 142528.png>)
+![alt text](88.png)
  
 cat forbreak.sh 
 ```bash
@@ -1020,7 +1026,7 @@ $ chmod 755 forcontinue.sh
 $ ./forcontinue.sh 
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 142626.png>)
+![alt text](89.png)
  
 cat exread.sh 
 ```bash
@@ -1036,7 +1042,7 @@ $ chmod 755 exread.sh
 $ ./exread.sh 
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 142801.png>)
+![alt text](90.png)
 
  cat exread1.sh
 ```bash
@@ -1049,7 +1055,7 @@ $ chmod 755 exread1.sh
 $ ./exread1.sh 
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 143151.png>)
+!![alt text](90-1.png)
 
 
  
@@ -1070,15 +1076,13 @@ fi
 ```
 ./funcex.sh 
 ## OUTPUT
-
-![alt text](<Screenshot 2025-04-19 143341.png>)
+![alt text](91.png)
  
  ./funcex.sh 1 2
 
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 143410.png>)
- 
+![alt text](92.png)
  
 cat argshift.sh
 ```bash
@@ -1091,8 +1095,8 @@ done
 $ chmod 777 argshift.sh
 $ ./argshift.sh 1 2 3
 ## OUTPUT
+![alt text](93.png)
 
-![alt text](<Screenshot 2025-04-19 143503.png>)
  
  cat argshift1.sh
 ```bash
@@ -1111,7 +1115,7 @@ $ chmod 777 argshift.sh
 $ ./argshift.sh 1 2 3
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 144022.png>)
+![alt text](94-1.png)
 
 cat argshift.sh
 ```bash
@@ -1125,8 +1129,7 @@ set +x
 ```
 ./argshift.sh 1 2 3
 ## OUTPUT
-
-![alt text](<Screenshot 2025-04-19 144210.png>) 
+ ![alt text](94-2.png)
  
 cat > nc.awk
 ```bash
@@ -1156,9 +1159,8 @@ bcdfghj
 ubcdfghj
 ```
 awk -f nc.awk data.dat
-## OUTPUT 
-
-![alt text](<Screenshot 2025-04-19 144322.png>)
+## OUTPUT
+![alt text](95-1.png)
  
 cat > palindrome.sh
 ```bash
@@ -1187,7 +1189,7 @@ fi
 ```
 ## OUTPUT 
 
-![alt text](<Screenshot 2025-04-19 144617.png>)
+!![alt text](96.png)
 
 # RESULT:
-The Commands are executed successfully.
+The Commands are executed successfully..
