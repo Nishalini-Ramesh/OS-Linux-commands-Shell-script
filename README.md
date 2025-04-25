@@ -43,23 +43,28 @@ s.n. dasgupta
 cat < file1
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 123409.png>)
+![alt text](3rd.png)
 
 cat < file2
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 123426.png>)
+![alt text](4th.png)
+
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- ![alt text](<Screenshot 2025-04-19 123435.png>)
-comm file1 file2
+ 
+ ![alt text](5th.png)
+c
+omm file1 file2
  ## OUTPUT
-![alt text](<Screenshot 2025-04-19 123447.png>)
+
+![alt text](7th-1.png)
  
 diff file1 file2
 ## OUTPUT
-![alt text](<Screenshot 2025-04-19 123457.png>)
+![alt text](8th.png)
+
 
 #Filters
 
@@ -82,18 +87,19 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
-![alt text](<Screenshot 2025-04-19 123521.png>)
 
+![alt text](11thh.png)
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 123528.png>)
+![alt text](12th.png)
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-![alt text](<Screenshot 2025-04-19 123539.png>)
+
+![alt text](13th.png)
 
 cat > newfile 
 ```
@@ -108,39 +114,38 @@ hello world
 grep Hello newfile 
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 124105.png>)
+![alt text](15.png)
 
 grep hello newfile 
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 124123.png>)
-
+![alt text](16.png)
 
 grep -v hello newfile 
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 124154.png>)
+![alt text](17.png)
 
 cat newfile | grep -i "hello"
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 124225.png>)
+![alt text](18.png)
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 124252.png>)
+![alt text](19.png)
 
 
 grep -R ubuntu /etc
 ## OUTPUT
+![alt text](20.png)
 
-![alt text](<Screenshot 2025-04-19 124327.png>)
 
 grep -w -n world newfile   
 ## OUTPUT
-![alt text](<Screenshot 2025-04-19 124411.png>)
+![alt text](21.png)
 
 cat < newfile 
 ```
@@ -164,63 +169,63 @@ Linux is best in this World
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 124528.png>)
+![alt text](24.png)
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 124548.png>)
+![alt text](24-1.png) ![alt text](25.png)
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 124606.png>)
-
+![alt text](26.png)
 
 egrep '(^hello)' newfile 
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 124625.png>)
+![alt text](27.png)
 
 egrep '(world$)' newfile 
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 124737.png>)
+![alt text](28.png)
 
 egrep '(World$)' newfile 
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 124802.png>)
+![alt text](29.png)
+
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 124831.png>)
 
+![alt text](30.png)
 
 egrep '[1-9]' newfile 
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 124851.png>)
+!![alt text](31.png)
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 124916.png>)
+![alt text](32.png)
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 124950.png>)
+![alt text](33.png)
 
 egrep l{2} newfile
 ## OUTPUT
+![alt text](34.png)
 
-![alt text](<Screenshot 2025-04-19 125014.png>)
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
 
-![alt text](<Screenshot 2025-04-19 125032.png>)
+![alt text](35.png)
 
 cat > file23
 ```
@@ -238,84 +243,88 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
-
-![alt text](<Screenshot 2025-04-19 125135.png>)
+![alt text](36.png)
 
 sed -n -e '$p' file23
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 125211.png>)
+![alt text](37.png)
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 125232.png>)
+![alt text](38.png)
+
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 125251.png>)
+![alt text](39.png)
+
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 125336.png>)
+![alt text](40.png)
+
 
 sed -n -e '1,5p' file23
 ## OUTPUT
+![alt text](41.png)
 
-![alt text](<Screenshot 2025-04-19 125355.png>)
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 125412.png>)
+![alt text](42.png)
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
-![alt text](<Screenshot 2025-04-19 125430.png>)
+
+![alt text](43.png)
 
 
 seq 10 
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 125627.png>)
+![alt text](44.png)
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 125654.png>)
+![alt text](45.png)
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 125719.png>)
+![alt text](46.png)
 
 seq 3 | sed '2a hello'
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 125741.png>)
+![alt text](47.png)
 
 seq 2 | sed '2i hello'
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 125806.png>)
+![alt text](48.png)
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 125839.png>)
+![alt text](49.png)
+
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 125904.png>)
+![alt text](50.png)
 
 sed -n '2,4{s/$/*/;p}' file23
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 125925.png>)
+![alt text](51.png)
 
 #Sorting File content
 cat > file21
@@ -329,7 +338,7 @@ cat > file21
 sort file21
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 130014.png>)
+![alt text](52.png)
 
 cat > file22
 ```
@@ -343,14 +352,14 @@ cat > file22
 uniq file22
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 130136.png>)
+![alt text](53.png)
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
 
- ![alt text](<Screenshot 2025-04-19 130157.png>)
+ ![alt text](54.png)
 
 cat < urllist.txt
 ```
@@ -368,18 +377,18 @@ www. mrcet.... com
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 130319.png>)
+![alt text](55.png)
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 130345.png>)
+![alt text](56.png)
 
 ## Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 145151.png>)
+![alt text](57.png)
 
 mkdir backupdir
  
@@ -416,7 +425,7 @@ chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 132530.png>)
+![alt text](59.png)
  
 cat << stop > herecheck.txt
 ```
@@ -429,7 +438,7 @@ stop
 cat herecheck.txt
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 132618.png>)
+![alt text](60.png)
 
 cat < scriptest.sh 
 ```bash
@@ -468,29 +477,28 @@ chmod 777 scriptest.sh
 
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 132803.png>)
+![alt text](61.png)
  
 ls file1
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 132822.png>)
+![alt text](62.png)
+
+echo $/?
+
+./one
+bash: ./one: Permission denied
 
 echo $?
 ## OUTPUT 
-./one
-bash: ./one: Permission denied
-![alt text](<Screenshot 2025-04-19 132837.png>)
- 
-echo $?
-## OUTPUT 
-![alt text](<Screenshot 2025-04-19 132926.png>)
+![alt text](./picture/63png)
  
 abcd
  
 echo $?
  ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 132953.png>)
+![alt text](../64.png)
  
 # mis-using string comparisons
 
@@ -517,13 +525,15 @@ if [ $val1 \> $val2 ]
 then
 echo "$val1 is greater than $val2"
 else
-echo "$val1 is less than $val2"
+echo "$val1 less than $val2"
 fi
 ```
 ##OUTPUT
 
-![alt text](<Screenshot 2025-04-19 133041.png>)
+!
+![alt text](66.png)
 
+![alt text](67.png)
 
 chmod 755 strcomp.sh
  
@@ -558,8 +568,10 @@ fi
 ./psswdperm.sh
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 133204.png>)
-![alt text](<Screenshot 2025-04-19 133230.png>)
+![alt text](68-1.png)
+
+![alt text](69.png)
+
 # check if with file location
 cat>ifnested.sh 
 ```bash
@@ -606,7 +618,9 @@ fi
 ./ifnested.sh 
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 133319.png>)
+
+![alt text](70.png)
+
 
 # using numeric test comparisons
 cat > iftest.sh 
@@ -650,7 +664,7 @@ $ chmod 755 iftest.sh
 $ ./iftest.sh 
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 133506.png>)
+![alt text](72.png)
 
 # check if a file
 cat > ifnested.sh 
@@ -701,7 +715,7 @@ $ chmod 755 ifnested.sh
 $ ./ifnested.sh 
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 133819.png>)
+![alt text](73.png)
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -731,7 +745,7 @@ $ chmod 755 elifcheck.sh
 $ ./elifcheck.sh 
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 134000.png>)
+![alt text](74.png)
 
 # testing compound comparisons
 cat> ifcompound.sh 
